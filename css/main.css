@@ -60,23 +60,26 @@ p {
 
 .lava {
   background-color: #e2e2e2;
-  border-left: 1px solid #333;
+  border-radius: 1px solid #333;
+  width: 25%;
 }
 
 .truffles {
   background-color: #e2e2e2;
-  border-left: 1px solid #333;
+  border-radius: 1px solid #333;
+  width: 25%;
 }
 
 .brownies {
   background-color: #e2e2e2;
-  border-left: 1px solid #333;
+  border-radius: 1px solid #333;
+  width: 25%;
 }
 
 .cake {
   background-color: #e2e2e2;
-  border-left: 1px solid #333;
-  border-right: 1px solid #333;
+  border-radius: 1px solid #333;
+  width: 25%;
 }
 
 h3 {
