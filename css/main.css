@@ -1,0 +1,106 @@
+html {
+  box-sizing: border-box;
+  font: normal 100%/1.5 sans-serif;
+  background-color: #f2f2f2;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #f2f2f2;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+div {
+  display: inline-block;
+  width: 25%;
+  float: left;
+  padding-top: .7em;
+  font-family: "Open Sans", sans-serif;
+  padding-bottom: 3em;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+section img {
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+h2 {
+  font-size: 1rem;
+  margin: 0;
+  padding-left: .4em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+p {
+  font-size: .875rem;
+  margin: 0;
+  padding-left: .4em;
+}
+
+.barrett {
+  background-color: #e2e2e2;
+  border-left: 1px solid #333;
+}
+
+.hedegaard {
+  background-color: #ccc;
+  border-left: 1px solid #333;
+}
+
+.cejkova {
+  background-color: #aaa;
+  border-left: 1px solid #333;
+}
+
+.olivarez {
+  background-color: #999;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+}
+
+h3 {
+  font-style: italic;
+  font-size: .875rem;
+  margin: 0;
+  padding-left: .4em;
+  padding-bottom: .7em;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 6px;
+  background-color: #333;
+  color: #fff;
+  font-size: .875rem;
+  padding: .7rem;
+  text-decoration: none;
+  text-align: center;
+  margin: 1rem;
+}
+
+.btn-small {
+  background-color: #333;
+}
+
+.btn:hover {
+  background-color: #000;
+}
