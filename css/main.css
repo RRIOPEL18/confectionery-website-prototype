@@ -16,8 +16,9 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 2rem;
-  font-family: "Open Sans", sans-serif;
+  font-size: 4rem;
+  font-family: 'Anton', sans-serif;
+  margin-bottom: 0;
 }
 
 div {
@@ -43,11 +44,12 @@ section img {
 }
 
 h2 {
-  font-size: 1rem;
+  font-size: 2rem;
   margin: 0;
   padding-left: .4em;
   padding-top: 1em;
   padding-bottom: 1em;
+  font-family: 'Anton', sans-serif;
 }
 
 p {
@@ -56,23 +58,23 @@ p {
   padding-left: .4em;
 }
 
-.barrett {
+.lava {
   background-color: #e2e2e2;
   border-left: 1px solid #333;
 }
 
-.hedegaard {
-  background-color: #ccc;
+.truffles {
+  background-color: #e2e2e2;
   border-left: 1px solid #333;
 }
 
-.cejkova {
-  background-color: #aaa;
+.brownies {
+  background-color: #e2e2e2;
   border-left: 1px solid #333;
 }
 
-.olivarez {
-  background-color: #999;
+.cake {
+  background-color: #e2e2e2;
   border-left: 1px solid #333;
   border-right: 1px solid #333;
 }
