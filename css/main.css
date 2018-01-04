@@ -109,6 +109,10 @@ p {
   padding-bottom: 4px;
 }
 
+.chef {
+  width: 100%;
+}
+
 h3 {
   font-style: none;
   font-size: .875rem;
@@ -121,6 +125,11 @@ h4 {
   text-align: center;
   font-size: 1em;
   font-family: 'Heebo', sans-serif;
+}
+
+h5{
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 .btn {
