@@ -20,6 +20,14 @@ body {
   margin: 0;
 }
 
+header .logo-left {
+  display: none;
+}
+
+header .logo-right {
+  display: none;
+}
+
 h1 {
   text-align: center;
   text-decoration: underline;
@@ -79,6 +87,7 @@ p {
   font-size: .875rem;
   margin: 0;
   padding-left: .4em;
+  font-family: 'Heebo', sans-serif;
 }
 
 .lava {
@@ -111,6 +120,8 @@ p {
 
 .chef {
   width: 100%;
+  display: inline;
+  font-family: 'Heebo', sans-serif;
 }
 
 h3 {
@@ -130,6 +141,9 @@ h4 {
 h5{
   text-align: center;
   font-size: 1.5rem;
+  font-family: 'Anton', sans-serif;
+  margin-top: 0;
+  margin-bottom: .5em;
 }
 
 .btn {
@@ -200,8 +214,19 @@ a:hover {
 
 @media screen and (min-width: 60em) {
 
+  header .logo-left {
+    height: 100px;
+    float: left;
+    display: inline-block;
+  }
+
+  header .logo-right {
+    height: 100px;
+    float: right;
+    display: inline-block;
+  }
+
 h1 {
-  text-align: left;
   padding-left: 1em;
 }
 
