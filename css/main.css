@@ -47,7 +47,6 @@ div {
   display: block;
   margin-right: 0;
   padding-top: .7em;
-  font-family: 'Heebo', sans-serif;
   padding-bottom: 3em;
 }
 
@@ -100,6 +99,7 @@ p {
   border: 1px solid #333;
   border-radius: 6px;
   padding-bottom: 2px;
+  margin-top: 1em;
 }
 
 .cake {
@@ -148,12 +148,25 @@ h4 {
 .btn:hover {
   background-color: #000;
 }
+a:hover {
+  background-color: #f2f2f2;
+}
+
+.button:hover {
+  background-color: #000;
+}
 
 @media only screen and (min-width: 38em) {
 
   div {
+    margin-left: 1em;
     display: inline-block;
-    max-width: 40%;
+    max-width: 47%;
+  }
+
+  .delivery {
+    display: block;
+    transform: translateX(50%);
   }
 }
 
@@ -170,4 +183,9 @@ h4 {
   .cake h2 {
     min-height: 129px;
   }
+}
+
+@media screen and (min-width: 60em) {
+
+
 }
