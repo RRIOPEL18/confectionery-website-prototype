@@ -1,3 +1,9 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
 html {
   box-sizing: border-box;
   font: normal 100%/1.5 sans-serif;
@@ -34,6 +40,7 @@ li {
 a {
   color: #f2f2f2;
   text-decoration: none;
+  text-align: center;
 }
 
 div {
@@ -110,6 +117,12 @@ h3 {
   padding-bottom: .7em;
 }
 
+h4 {
+  text-align: center;
+  font-size: 1em;
+  font-family: 'Heebo', sans-serif;
+}
+
 .btn {
   display: inline-block;
   border-radius: 6px;
@@ -126,6 +139,35 @@ h3 {
   background-color: #333;
 }
 
+.button {
+  display: block;
+  border-radius: 6px;
+  background-color: #333;
+}
+
 .btn:hover {
   background-color: #000;
+}
+
+@media only screen and (min-width: 38em) {
+
+  div {
+    display: inline-block;
+    max-width: 40%;
+  }
+}
+
+@media screen and (max-width: 44.5625em) and (min-width: 38em) {
+
+  .truffles p {
+    min-height: 84px;
+  }
+
+  .truffles h2 {
+    min-height: 129px;
+  }
+
+  .cake h2 {
+    min-height: 129px;
+  }
 }
