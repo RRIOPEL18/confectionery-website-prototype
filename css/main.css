@@ -68,8 +68,6 @@ img {
 section img {
   width: 100px;
   display: block;
-  margin-left: none;
-  margin-right: none;
 
 }
 
@@ -181,10 +179,19 @@ a:hover {
 
 .ordering {
   display: block;
+  margin: auto;
 }
 
 .ximage {
   padding-bottom: 0;
+  margin: auto;
+}
+
+@media only screen and (min-width: 25em) {
+
+  section img {
+    width: 50%;
+  }
 }
 
 @media only screen and (min-width: 38em) {
@@ -195,6 +202,9 @@ a:hover {
     max-width: 47%;
   }
 
+section img {
+  width: 100%;
+}
   .delivery {
     display: block;
     transform: translateX(50%);
@@ -203,10 +213,13 @@ a:hover {
   .brownies {
     margin-top: 1em;
   }
-}
 
-@media screen and (max-width: 44.5625em) and (min-width: 38em) {
-
+  .ximage {
+    margin: auto;
+    text-align: center;
+    max-width: 100%;
+    display: block;
+  }
 }
 
 @media screen and (min-width: 60em) {
