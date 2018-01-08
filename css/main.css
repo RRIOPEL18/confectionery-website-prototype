@@ -215,7 +215,7 @@ a:hover {
 
   html {
     font-size: 110%;
-    line-height: 1.4em;
+    line-height: 1.3em;
   }
 
   div {
@@ -231,7 +231,7 @@ a:hover {
   h2 {
     line-height: 1em;
   }
-  
+
   .delivery {
     display: block;
     transform: translateX(50%);
@@ -253,7 +253,7 @@ a:hover {
 
   html {
     font-size: 120%;
-    line-height: 1.5em;
+    line-height: 1.4em;
   }
 
   header .logo-left {
