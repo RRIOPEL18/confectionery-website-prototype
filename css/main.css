@@ -36,7 +36,7 @@ h1 {
   text-align: center;
   text-decoration: underline;
   font-size: 4rem;
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
   margin-bottom: 0;
   line-height: 1.5em;
 }
@@ -81,16 +81,15 @@ h2 {
   margin: 0;
   padding-left: .4em;
   padding-top: 1em;
-  padding-bottom: 1em;
-  font-family: 'Anton', sans-serif;
   padding-bottom: 1px;
+  font-family: "Anton", sans-serif;
 }
 
 p {
   font-size: .875rem;
   margin: 0;
   padding-left: .4em;
-  font-family: 'Heebo', sans-serif;
+  font-family: "Heebo", sans-serif;
 }
 
 .lava {
@@ -124,7 +123,7 @@ p {
 .chef {
   width: 100%;
   display: inline;
-  font-family: 'Heebo', sans-serif;
+  font-family: "Heebo", sans-serif;
 }
 
 h3 {
@@ -137,13 +136,13 @@ h3 {
 h4 {
   text-align: center;
   font-size: 1em;
-  font-family: 'Heebo', sans-serif;
+  font-family: "Heebo", sans-serif;
 }
 
-h5{
+h5 {
   text-align: center;
   font-size: 1.5rem;
-  font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
   margin-top: 0;
   margin-bottom: .5em;
 }
@@ -173,6 +172,7 @@ h5{
 .btn:hover {
   background-color: #000;
 }
+
 a:hover {
   background-color: #f2f2f2;
 }
@@ -201,10 +201,11 @@ a:hover {
 
 @media only screen and (min-width: 25em) {
 
-  html{
+  html {
     font-size: 100%;
     line-height: 1.5em;
   }
+
   section img {
     width: 50%;
   }
@@ -230,6 +231,7 @@ a:hover {
   h2 {
     line-height: 1em;
   }
+  
   .delivery {
     display: block;
     transform: translateX(50%);
