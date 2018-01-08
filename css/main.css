@@ -179,6 +179,14 @@ a:hover {
   background-color: #000;
 }
 
+.ordering {
+  display: block;
+}
+
+.ximage {
+  padding-bottom: 0;
+}
+
 @media only screen and (min-width: 38em) {
 
   div {
@@ -199,17 +207,6 @@ a:hover {
 
 @media screen and (max-width: 44.5625em) and (min-width: 38em) {
 
-  .truffles p {
-    min-height: 84px;
-  }
-
-  .truffles h2 {
-    min-height: 129px;
-  }
-
-  .cake h2 {
-    min-height: 129px;
-  }
 }
 
 @media screen and (min-width: 60em) {
@@ -234,4 +231,15 @@ a:hover {
     display: block;
   }
 
+}
+
+@media screen and (min-width: 90em) {
+
+  .ximage {
+    position: relative;
+  }
+
+  .ordering {
+    position: absolute;
+  }
 }
