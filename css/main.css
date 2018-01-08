@@ -285,6 +285,11 @@ h2 {
     display: block;
   }
 
+  li {
+    width: 25%;
+    display: inline-block;
+  }
+
 }
 
 @media screen and (min-width: 90em) {
