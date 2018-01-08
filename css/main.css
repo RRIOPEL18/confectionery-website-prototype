@@ -223,13 +223,13 @@ a:hover {
     max-width: 46%;
   }
 
-section img {
-  width: 100%;
-}
+  section img {
+    width: 100%;
+  }
 
-h2 {
-  line-height: 1em;
-}
+  h2 {
+    line-height: 1em;
+  }
   .delivery {
     display: block;
     transform: translateX(50%);
@@ -296,7 +296,7 @@ h2 {
 
   html {
     font-size: 130%;
-    }
+  }
 
   .ximage {
     position: relative;
