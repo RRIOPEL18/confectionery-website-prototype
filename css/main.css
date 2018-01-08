@@ -38,6 +38,7 @@ h1 {
   font-size: 4rem;
   font-family: 'Anton', sans-serif;
   margin-bottom: 0;
+  line-height: 1.5em;
 }
 
 nav {
@@ -190,8 +191,20 @@ a:hover {
   margin: auto;
 }
 
+.left {
+  display: none;
+}
+
+.right {
+  display: none;
+}
+
 @media only screen and (min-width: 25em) {
 
+  html{
+    font-size: 100%;
+    line-height: 1.5em;
+  }
   section img {
     width: 50%;
   }
@@ -199,14 +212,23 @@ a:hover {
 
 @media only screen and (min-width: 38em) {
 
+  html {
+    font-size: 110%;
+    line-height: 1.5em;
+  }
+
   div {
     margin-left: 1em;
     display: inline-block;
-    max-width: 47%;
+    max-width: 46%;
   }
 
 section img {
   width: 100%;
+}
+
+h2 {
+  line-height: 1em;
 }
   .delivery {
     display: block;
@@ -227,14 +249,30 @@ section img {
 
 @media screen and (min-width: 60em) {
 
+  html {
+    font-size: 120%;
+    line-height: 1.5em;
+  }
+
   header .logo-left {
     height: 100px;
-    float: left;
+    float: right;
     display: inline-block;
   }
 
   header .logo-right {
     height: 100px;
+    float: right;
+    display: inline-block;
+    padding-bottom: 0;
+  }
+
+  .left {
+    float: left;
+    display: inline-block;
+  }
+
+  .right {
     float: right;
     display: inline-block;
   }
@@ -251,6 +289,10 @@ section img {
 
 @media screen and (min-width: 90em) {
 
+  html {
+    font-size: 130%;
+    }
+
   .ximage {
     position: relative;
   }
@@ -258,4 +300,5 @@ section img {
   .ordering {
     position: absolute;
   }
+
 }
